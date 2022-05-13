@@ -8,8 +8,12 @@ GAN-generated heightmaps then fed into blender. see output.mp4. Heightmapts are 
 
 ## Model/Data
 
-model is in ipynbs there's a train and a infer
-train trains
+download GIS data from link above, be sure to do asc format
+run dataset generation notebook to generate images usable for gan training dataset
+model is in ipynbs there's a train and a infer, run both
+the train notebook trains the model
 infer makes interplations between random spots in latent space
 feed interpolation images into movie (ffmpeg) and then into blender displace modifier
 render blender and make movie (ffmpeg) to get output
+
+note that you'll have to re-create some blender image asssociations when downloading to another computer

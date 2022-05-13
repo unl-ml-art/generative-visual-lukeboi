@@ -2,7 +2,7 @@
 
 Luke Farritor
 
-
+![image](https://github.com/unl-ml-art/generative-visual-lukeboi/blob/master/dcgan_inter/render%20output/0024.png?raw=true)
 
 ## Abstract
 

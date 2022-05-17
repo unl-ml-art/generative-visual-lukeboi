@@ -1,0 +1,3 @@
+My original idea was to use a GAN to generate landscape images. At first, I also wanted to train a GAN from scratch as a learning expirence. You were right - that's very hard! Finding a large enough dataset of landscape images was going to be very difficult. I started looking into existing datasets of landscape images, but they were either way too small or not freely avalible.
+
+I started tinkering with DCgan and found it easy enough to work with, both in terms of ease and the size of required data. That's when my idea morphed into it's current stage: using a GAN to generate terrain heightmaps and then rendering those heightmaps using traditional methods.
